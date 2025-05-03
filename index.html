@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV - Moh Yusup Habibie</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 60px 20px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    }
+
+    header h1 {
+      font-size: 3rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 16px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+    }
+
+    section {
+      padding: 30px 20px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+    h2 {
+      color: #00ffff;
+      margin-bottom: 10px;
+      font-size: 1.8rem;
+    }
+
+    .skill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 10px;
+    }
+
+    .skill-list span {
+      background-color: rgba(0,255,255,0.2);
+      padding: 10px 18px;
+      border-radius: 25px;
+      border: 1px solid #00ffff;
+      font-size: 0.95rem;
+    }
+
+    .astronaut-container {
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .astronaut {
+      width: 180px;
+      animation: float 5s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    a {
+      color: #00ffff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Moh Yusup Habibie</h1>
+    <p>Freelance | Drawing Enthusiast</p>
+  </header>
+
+  <div class="container">
+    <div class="astronaut-container">
+      <img src="https://i.imgur.com/I80W1Q0.png" alt="Astronot" class="astronaut">
+    </div>
+
+    <section>
+      <h2>Tentang Saya</h2>
+      <p>Menyukai hal baru dan terus belajar untuk berkembang di dunia kreatif.</p>
+    </section>
+
+    <section>
+      <h2>Keahlian</h2>
+      <div class="skill-list">
+        <span>Drawing</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Pendidikan</h2>
+      <p>SMK Otomotif</p>
+    </section>
+
+    <section>
+      <h2>Kontak</h2>
+      <p>Email: <a href="mailto:Yusuvhabibi2@gmail.com">Yusuvhabibi2@gmail.com</a></p>
+      <p>Instagram: <a href="https://instagram.com/Surfff_" target="_blank">@Surfff_</a></p>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Moh Yusup Habibie. Dibuat dengan semangat eksplorasi dan kreativitas.
+  </footer>
+</body>
+</html>
+
